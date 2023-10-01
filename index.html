@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+
+  <!-- box icons -->
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- custom css -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <!-- header design -->
+
+  <header class="header">
+    <a href="#" class="logo">Portfolio.</a>
+    <nav class="navbar">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <i class='bx bx-menu' id="menu-icon"></i>
+    <i class='bx bx-x' id="close-icon"></i>
+    <nav class="navbar_responsive">
+      <a href="#home" class="active closeNavbar">Home</a>
+      <a href="#about" class="closeNavbar">About</a>
+      <a href="#services" class="closeNavbar">Services</a>
+      <a href="#portfolio" class="closeNavbar">Portfolio</a>
+      <a href="#contact" class="closeNavbar">Contact</a>
+    </nav>
+  </header>
+
+  <!-- home section design -->
+  <section class="home flex_column" id="home">
+    <div class="home_content flex_column_content">
+      <h3 data-aos="fade-right" data-aos-duration="1000">Hello, It's Me</h3>
+      <h1 data-aos="fade-right" data-aos-duration="1300">Khalfi Aymen</h1>
+      <h3 data-aos="fade-right" data-aos-duration="1600">And I'm a <span>Frontend Developer</span></h3>
+      <p data-aos="fade-right" data-aos-duration="1900">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+        nam sunt corporis inventore? Fuga labore
+        numquam consequatur excepturi blanditiis quos?</p>
+      <div class="social_media" data-aos="fade-right" data-aos-duration="2100">
+        <a href="#"><i class="bx bxl-facebook"></i></a>
+        <a href="#"><i class="bx bxl-twitter"></i></a>
+        <a href="#"><i class="bx bxl-instagram-alt"></i></a>
+        <a href="#"><i class="bx bxl-linkedin"></i></a>
+      </div>
+      <a href="#" class="btn" data-aos="fade-right" data-aos-duration="2400">Download CV</a>
+    </div>
+
+    <div class="home_img flex_column_img">
+      <img src="images/home.jpg" alt="home" data-aos="fade-left" data-aos-duration="2400">
+    </div>
+  </section>
+
+
+  <!-- about section design -->
+
+  <section class="about flex_column" id="about">
+    <div class="about_img flex_column_img">
+      <img src="images/about.jpg" alt="about image" data-aos="fade-right" data-aos-duration="2400">
+    </div>
+    <div class="about_content flex_column_content">
+      <h1 data-aos="fade-left" data-aos-duration="1600">About <span>me</span></h1>
+      <h3 data-aos="fade-left" data-aos-duration="1900">Frontend Developer!</h3>
+      <p data-aos="fade-left" data-aos-duration="2100">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+        Impedit deleniti, officia exercitationem vitae
+        sapiente recusandae distinctio cupiditate inventore consequuntur asperiores, ipsum maxime accusamus fuga facere
+        iusto animi, aut est iure.</p>
+      <a href="#" class="btn" data-aos="fade-left" data-aos-duration="2400">Read More</a>
+    </div>
+  </section>
+
+
+  <!-- services section design -->
+  <section class="services wrapper" id="services">
+    <div class="services_header wrapper_header">
+      <h1 data-aos="fade-down" data-aos-duration="2000">Our <span>Services</span></h1>
+    </div>
+    <div class="services_content wrapper_content">
+      <div class="services_card" data-aos="fade-up" data-aos-duration="1500">
+        <i class='bx bx-code'></i>
+        <h1>Web develepment</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia magnam incidunt nulla facere,
+          necessitatibus, saepe in ipsa voluptates, cupiditate ullam doloribus quam dolorem deleniti quaerat? Cumque
+          architecto aut animi praesentium quasi asperiores ipsam cum. Quidem libero ex placeat cumque adipisci.</p>
+        <a href="#" class="btn">Read More</a>
+      </div>
+      <div class="services_card" data-aos="fade-up" data-aos-duration="2000">
+        <i class='bx bxs-pencil'></i>
+        <h1>Graphic design</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia magnam incidunt nulla facere,
+          necessitatibus, saepe in ipsa voluptates, cupiditate ullam doloribus quam dolorem deleniti quaerat? Cumque
+          architecto aut animi praesentium quasi asperiores ipsam cum. Quidem libero ex placeat cumque adipisci.</p>
+        <a href="#" class="btn">Read More</a>
+      </div>
+      <div class="services_card" data-aos="fade-up" data-aos-duration="2500">
+        <i class='bx bx-signal-4'></i>
+        <h1>digital markrting</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia magnam incidunt nulla facere,
+          necessitatibus, saepe in ipsa voluptates, cupiditate ullam doloribus quam dolorem deleniti quaerat? Cumque
+          architecto aut animi praesentium quasi asperiores ipsam cum. Quidem libero ex placeat cumque adipisci.</p>
+        <a href="#" class="btn">Read More</a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- portfolio section design -->
+
+  <section class="portfolio wrapper" id="portfolio">
+    <div class="portfolio_header wrapper_header">
+      <h1 data-aos="fade-down" data-aos-duration="2000">Latest <span>Project</span></h1>
+    </div>
+    <div class="portfolio_content wrapper_content">
+      <div class="div1" data-aos="fade-right" data-aos-duration="1800">
+        <div class="card_content">
+          <h1>web design</h1>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime suscipit error officiis. Laboriosam?</p>
+          <i class='bx bx-link-external'></i>
+        </div>
+      </div>
+      <div class="div2" data-aos="fade-left" data-aos-duration="1800">
+        <div class="card_content">
+          <h1>web design</h1>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime suscipit error officiis. Laboriosam?</p>
+          <i class='bx bx-link-external'></i>
+        </div>
+      </div>
+      <div class="div3" data-aos="fade-right" data-aos-duration="1800">
+        <div class="card_content">
+          <h1>web design</h1>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime suscipit error officiis. Laboriosam?</p>
+          <i class='bx bx-link-external'></i>
+        </div>
+      </div>
+      <div class="div4" data-aos="fade-left" data-aos-duration="1800">
+        <div class="card_content">
+          <h1>web design</h1>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime suscipit error officiis. Laboriosam?</p>
+          <i class='bx bx-link-external'></i>
+        </div>
+      </div>
+      <div class="div5" data-aos="fade-right" data-aos-duration="1800">
+        <div class="card_content">
+          <h1>web design</h1>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime suscipit error officiis. Laboriosam?</p>
+          <i class='bx bx-link-external'></i>
+        </div>
+      </div>
+      <div class="div6" data-aos="fade-left" data-aos-duration="1800">
+        <div class="card_content">
+          <h1>web design</h1>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime suscipit error officiis. Laboriosam?</p>
+          <i class='bx bx-link-external'></i>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- contact section design -->
+  <section class="contact wrapper" id="contact">
+    <div class="contact_header wrapper_header">
+      <h1 data-aos="fade-down" data-aos-duration="2000">contact <span>me!</span></h1>
+    </div>
+    <div class="contact_content wrapper_content">
+      <div class="contact_content_inputs">
+        <form action="" data-aos="fade-up-right" data-aos-duration="1700">
+          <div class="half_input">
+            <input type="text" placeholder="Full Name" required>
+            <input type="email" placeholder="Email Adress" required>
+          </div>
+          <div class="half_input">
+            <input type="number" placeholder="Mobile Number">
+            <input type="email" placeholder="Email Subject">
+          </div>
+          <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- footer design -->
+  <footer>
+    <p>Copyright &copy; 2023 by <span>khalfi aymen</span> | All Rights Reaserved</p>
+    <a href="#"><i class='bx bxs-up-arrow-square'></i></a>
+  </footer>
+
+  <!-- scroll reveal -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <!-- typed js -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+  <!-- custom js -->
+  <script src="js/script.js"></script>
+</body>
+</html>
